@@ -558,8 +558,9 @@ dengan Baylor Scott & White Health System di Dallas.
                 <div class="fight-content__list-item"> 
                   <div class="fight-content__list-icon"> <img src="static/images/general/fight-icon.svg" width="37" height="39" alt=""></div>
                   <div class="fight-content__list-info">Melindungi dari Mikroba*</div>
-                </div>
-              </div><a class="btn fight-content__btn" href="#">RUSH MY ORDER</a>
+                </div> 
+              <div class="effective-warning__link buttom-plus"><a class="btn" href="#">RUSH MY ORDER</a></div>
+          </div><a class="btn fight-content__btn buttom-minus" href="#">RUSH MY ORDER</a>
               <div class="fight-content__rx"> 
                 <picture class="desctop"> 
                   <source srcset="static/images/general/3botles.webp" type="image/webp"><img src="static/images/general/3botles.png" loading="lazy" width="1200" height="628" alt="img">
@@ -588,6 +589,10 @@ dengan Baylor Scott & White Health System di Dallas.
             .effective-content__title
                 {font-size: 3.64583vw;}
             img, pre {padding-top: 30px;}
+         @media (min-width: 480px) {
+            .buttom-minus {display:none;}
+            }
+        
             @media (max-width: 480px)
                 {.effective-content__title
                     {font-size: 6.2vw;}
